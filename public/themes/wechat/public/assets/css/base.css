@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Microsoft YaHei";
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    color: var(--weui-FG-1);
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.weui-tab__panel {
+    background-color: #ededed;
+    background-color: var(--weui-BG-2);
+}
+
+.weui-tabbar {
+    background-color: #fff;
+    background-color: var(--weui-BG-2);
+}
+
+.tab__panel__hd {
+    padding: 40px;
+}
+
+.tab__title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tab__desc {
+    margin-top: 4px;
+    color: var(--weui-FG-1);
+    text-align: left;
+    font-size: 14px;
+}
+
+.weui-form__text-area {
+    text-align: left;
+}
+
+.weui-form__desc {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.weui-form__control-area {
+    margin: 25px 0;
+}
+
+.weui-cells {
+    font-size: 13px;
+}
+
+.weui-btn {
+    font-size: 14px;
+}
+
+.weui-cells__group_form .weui-cells__title {
+    font-size: 12px;
+}

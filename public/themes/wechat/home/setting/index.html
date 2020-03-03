@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>设置</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <meta name="keywords" content="" />
+    <meta name="description" content="">
+    <include file="public@header" />
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="page">
+            <div class="weui-tab">
+                <div class="weui-tab__panel">
+                    <div class="tab__panel__hd">
+                        <h1 class="tab__title">设置</h1>
+                        <p class="tab__desc">游戏角色，地区，巢穴，委托设置</p>
+                    </div>
+                    <div class="tab__bd tab__bd_spacing">
+                        <a href="{:url('setting/role')}" class="weui-btn weui-btn_default" id="">角色</a>
+                        <a href="{:url('setting/region')}" class="weui-btn weui-btn_default" id="">地区</a>
+                        <a href="{:url('setting/nest')}" class="weui-btn weui-btn_default" id="">巢穴</a>
+                    </div>
+
+                	<include file="public@footer" />
+                </div>
+                <include file="public@tabbar" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
