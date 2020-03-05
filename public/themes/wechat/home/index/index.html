@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>首页</title>
+    <title>搬砖</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
     <meta name="keywords" content="" />
     <meta name="description" content="">
@@ -12,13 +12,20 @@
 <body>
     <div class="container" id="container">
         <div class="page">
-            <div class="page__bd" style="height: 100%;">
-                <div class="weui-tab">
-                    <div class="weui-tab__panel">
-                    	<include file="public@footer" />
+            <div class="weui-tab">
+                <div class="weui-tab__panel">
+                    <div class="tab__panel__hd">
+                        <h1 class="tab__title">搬砖</h1>
+                        <p class="tab__desc">游戏角色开启搬砖生涯</p>
                     </div>
-                    <include file="public@tabbar" />
+                    <div class="tab__bd tab__bd_spacing">
+                        <a href="{:url('setting/role')}" class="weui-btn weui-btn_default" id="">普通委托</a>
+                        <a href="{:url('setting/region')}" class="weui-btn weui-btn_default" id="">特殊委托</a>
+                    </div>
+
+                    <include file="public@footer" />
                 </div>
+                <include file="public@tabbar" />
             </div>
         </div>
     </div>

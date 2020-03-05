@@ -43,6 +43,10 @@ body {
     padding: 40px;
 }
 
+.tab__bd_spacing {
+    padding: 0 16px;
+}
+
 .tab__title {
     text-align: left;
     font-size: 20px;
@@ -75,6 +79,11 @@ body {
 
 .weui-btn {
     font-size: 14px;
+}
+
+.weui-flex .weui-btn {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .weui-cells__group_form .weui-cells__title {
